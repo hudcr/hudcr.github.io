@@ -1,0 +1,201 @@
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000000000000000000000000000000000000..168db24af34754250faeba98a70c1402c9ae69ee
+--- /dev/null
++++ b/index.html
+@@ -0,0 +1,195 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8">
++  <meta name="viewport" content="width=device-width, initial-scale=1.0">
++  <title>Hudson Cruz · Product Designer & Front-End Developer</title>
++  <meta name="description" content="Minimal personal portfolio for Hudson Cruz, product designer and front-end developer. Showcasing projects, experience, and ways to connect.">
++  <link rel="preconnect" href="https://fonts.googleapis.com">
++  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
++  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
++  <link rel="stylesheet" href="styles.css">
++</head>
++<body>
++  <a class="skip-link" href="#about">Skip to content</a>
++  <header id="top" class="site-header">
++    <div class="container header-inner">
++      <a class="logo" href="#top">HUDCR</a>
++      <nav aria-label="Primary">
++        <ul class="nav-list">
++          <li><a href="#about">About</a></li>
++          <li><a href="#skills">Skills</a></li>
++          <li><a href="#projects">Projects</a></li>
++          <li><a href="#experience">Experience</a></li>
++          <li><a href="#contact">Contact</a></li>
++        </ul>
++      </nav>
++    </div>
++  </header>
++
++  <main>
++    <section class="hero">
++      <div class="container hero-inner">
++        <div class="hero-copy">
++          <p class="eyebrow">Product Designer · Front-End Developer</p>
++          <h1>Designing meaningful digital experiences with intent and clarity.</h1>
++          <p class="lede">I help teams translate complex ideas into elegant products. Currently focusing on design systems, accessible interfaces, and delightful micro-interactions.</p>
++          <div class="hero-actions">
++            <a class="button" href="mailto:hello@hudcr.com">Let's collaborate</a>
++            <a class="link" href="#projects">View selected work</a>
++          </div>
++        </div>
++        <div class="hero-visual" aria-hidden="true">
++          <div class="profile-bubble">
++            <span>HC</span>
++          </div>
++        </div>
++      </div>
++    </section>
++
++    <section id="about" class="section">
++      <div class="container split">
++        <div>
++          <h2>About</h2>
++        </div>
++        <div class="section-body">
++          <p>I craft interfaces where design and engineering work hand-in-hand. With a background that bridges human-centered research and code, I translate strategic insights into build-ready solutions.</p>
++          <p>From leading design sprints to prototyping high-fidelity concepts, I bring calm collaboration and systems thinking to every engagement. My ideal projects pair purposeful product strategy with meticulous execution.</p>
++        </div>
++      </div>
++    </section>
++
++    <section id="skills" class="section surface">
++      <div class="container">
++        <div class="section-heading">
++          <h2>Core skills</h2>
++          <p class="caption">A snapshot of the tools and practices I rely on most.</p>
++        </div>
++        <div class="cards">
++          <article class="card">
++            <h3>Product strategy</h3>
++            <p>Workshop facilitation, discovery research, journey mapping, impact framing, KPI definition, and roadmaps.</p>
++          </article>
++          <article class="card">
++            <h3>Design systems</h3>
++            <p>Accessible component libraries, tokens, documentation, audits, and scalable governance for multidisciplinary teams.</p>
++          </article>
++          <article class="card">
++            <h3>Front-end craft</h3>
++            <p>Responsive UI implementation, rapid prototyping, design handoff, and thoughtful motion design using modern tooling.</p>
++          </article>
++        </div>
++      </div>
++    </section>
++
++    <section id="projects" class="section">
++      <div class="container">
++        <div class="section-heading">
++          <h2>Selected projects</h2>
++          <p class="caption">Case studies available upon request.</p>
++        </div>
++        <div class="project-grid">
++          <article class="project-card">
++            <div class="project-meta">
++              <p class="project-year">2023</p>
++              <p class="project-role">Lead Product Designer</p>
++            </div>
++            <h3>Beacon analytics platform</h3>
++            <p>Defined a design language and modular dashboards for a cloud-native analytics suite trusted by enterprise teams.</p>
++            <a class="project-link" href="mailto:hello@hudcr.com?subject=Beacon%20case%20study">Request overview</a>
++          </article>
++          <article class="project-card">
++            <div class="project-meta">
++              <p class="project-year">2022</p>
++              <p class="project-role">Design Systems Lead</p>
++            </div>
++            <h3>Atlas component library</h3>
++            <p>Created an inclusive design system that reduced inconsistencies by 60% and accelerated delivery across 8 product squads.</p>
++            <a class="project-link" href="mailto:hello@hudcr.com?subject=Atlas%20case%20study">Request overview</a>
++          </article>
++          <article class="project-card">
++            <div class="project-meta">
++              <p class="project-year">2021</p>
++              <p class="project-role">Product Designer</p>
++            </div>
++            <h3>Northstar mobile banking</h3>
++            <p>Led end-to-end redesign, improving onboarding conversion by 32% with personalized financial guidance and adaptive UI.</p>
++            <a class="project-link" href="mailto:hello@hudcr.com?subject=Northstar%20case%20study">Request overview</a>
++          </article>
++        </div>
++      </div>
++    </section>
++
++    <section id="experience" class="section surface">
++      <div class="container">
++        <div class="section-heading">
++          <h2>Experience</h2>
++          <p class="caption">Highlights from the last decade.</p>
++        </div>
++        <ul class="timeline" aria-label="Career timeline">
++          <li class="timeline-item">
++            <div>
++              <p class="timeline-period">2021 — Present</p>
++              <h3>Principal Product Designer · Studio North</h3>
++            </div>
++            <p>Partnering with product and engineering leads to shape vision, define metrics, and ship new experiences for enterprise SaaS clients.</p>
++          </li>
++          <li class="timeline-item">
++            <div>
++              <p class="timeline-period">2018 — 2021</p>
++              <h3>Senior Designer · Gradient Labs</h3>
++            </div>
++            <p>Led design for cross-platform apps, introduced design ops rituals, and mentored designers through growth frameworks.</p>
++          </li>
++          <li class="timeline-item">
++            <div>
++              <p class="timeline-period">2014 — 2018</p>
++              <h3>UX Designer · Independent</h3>
++            </div>
++            <p>Collaborated with startups to define MVPs, built interactive prototypes, and delivered polished interfaces ready for development.</p>
++          </li>
++        </ul>
++      </div>
++    </section>
++
++    <section id="contact" class="section">
++      <div class="container split">
++        <div>
++          <h2>Contact</h2>
++        </div>
++        <div class="section-body">
++          <p>Interested in collaborating or want to see more work? Send a note and I’ll get back within two business days.</p>
++          <div class="contact-links">
++            <a href="mailto:hello@hudcr.com" class="contact-link">
++              <span class="contact-label">Email</span>
++              <span>hello@hudcr.com</span>
++            </a>
++            <a href="https://www.linkedin.com" class="contact-link" target="_blank" rel="noopener">
++              <span class="contact-label">LinkedIn</span>
++              <span>/in/hudcr</span>
++            </a>
++            <a href="https://dribbble.com" class="contact-link" target="_blank" rel="noopener">
++              <span class="contact-label">Dribbble</span>
++              <span>@hudcr</span>
++            </a>
++          </div>
++        </div>
++      </div>
++    </section>
++  </main>
++
++  <footer class="site-footer">
++    <div class="container footer-inner">
++      <p>© <span id="year">2024</span> Hudson Cruz. All rights reserved.</p>
++      <a class="top-link" href="#top">Back to top</a>
++    </div>
++  </footer>
++
++  <script>
++    const year = document.getElementById('year');
++    if (year) {
++      year.textContent = new Date().getFullYear();
++    }
++  </script>
++</body>
++</html>
