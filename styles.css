@@ -208,13 +208,7 @@ a:focus {
 }
 
 .profile-photo::after {
-  content: "";
-  position: absolute;
-  inset: 12px;
-  border-radius: 14px;
-  border: 1px solid rgba(255, 255, 255, 0.45);
-  pointer-events: none;
-  opacity: 0.4;
+  content: none;
 }
 
 .profile-photo span {
