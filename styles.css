@@ -188,7 +188,7 @@ a:focus {
   aspect-ratio: 1;
   border-radius: 18px;
   background: 
-    url("./img/image.jpg") center center / cover no-repeat,
+
     var(--profile-photo); /* fallback gradient */
   border: 1px dashed var(--accent);
   display: flex;
